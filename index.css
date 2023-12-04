@@ -1,0 +1,52 @@
+/* .sptimg {
+  width: 200px;
+  height: 300px;
+}
+.sptimg2 {
+  width: 200px;
+  height: 300px;
+  margin-top: 5px;
+} */
+
+.imgContainer img {
+  width: 200px;
+  height: 300px;
+  display: block;
+  margin-bottom: 30px;
+}
+.jumbotron {
+  padding: 4rem 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+}
+.custom-bg-secondary {
+  background-color: #b07777;
+}
+.imgh1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #555;
+}
+.containerimg {
+  height: 200px;
+  height: 300px;
+  display: block;
+}
+.jumbotron {
+  background-color: #b07777;
+}
+.animationtxt {
+  font-size: 28px;
+  /* Başlangıç rengi */
+  color: #3498db;
+  /* Animasyon süresi ve tipi */
+  animation: colorChange 3s infinite alternate;
+}
+@keyframes colorChange {
+  0% {
+    color: #3498db; /* Başlangıç rengi */
+  }
+  100% {
+    color: #e74c3c; /* Bitiş rengi */
+  }
+}
